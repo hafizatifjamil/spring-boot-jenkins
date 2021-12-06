@@ -14,14 +14,14 @@ import java.util.Date;
 public class UnitTestApplication {
 
 	public static void main(String[] args) throws Exception {
-//		SpringApplication.run(UnitTestApplication.class, args);
+		SpringApplication.run(UnitTestApplication.class, args);
 //		String date = "2020-12-01";
 //		String dateWithTimeString = DateTimeFormatter.ISO_LOCAL_DATE_TIME.format(LocalDate.parse(date).atTime(23,59,59));
 //		System.out.println(dateWithTimeString);
 //		date = "2019-07-15T00:00:00";
 //		System.out.println(setDateWithTimeEndOfDay(date));
 
-		System.out.println("".equals(null));
+//		System.out.println("".equals(null));
 	}
 
 	private static String setDateWithTimeEndOfDay(String date)  throws Exception{
